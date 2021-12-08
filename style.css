@@ -7,20 +7,28 @@ html {
     text-align: center;
 }
 
+/* Header styling */
+
 header {
     height: 69px;
+    width: 100%;
     position: fixed;
     z-index: 10;
+    background-color: black;
     border-bottom: 1px solid seashell;
+    margin: 0;
+    top: 0;
 }
 header img {
     height: 50px;
-    margin: 10px; 
+    padding: 10px; 
+    float: left;
 }
 
 header ul {
     list-style-type: none;
-
+    display: inline;
+    float: right;
 }
 
 header li {
@@ -31,4 +39,20 @@ header li {
 
 header a {
     color: seashell;
+}
+
+/* Mission section styling */
+
+.hero {
+    background-image: url('images/img-mission-background.jpg');
+    height: 700px;
+    width: 1200px;
+    margin: 70px auto 0;
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    width: 1200px;
+    background-color: black;
 }

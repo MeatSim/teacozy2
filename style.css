@@ -56,3 +56,24 @@ header a {
     width: 1200px;
     background-color: black;
 }
+
+/* Teas section styling */
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.teas img {
+    height: 200px;
+    width: 300px;
+    margin: 25px 15px 10px;
+}
+
+.teas h4 {
+    margin: 0;
+    padding: 0; 
+}

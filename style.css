@@ -59,7 +59,7 @@ header a {
 
 /* Teas section styling */
 
-.container {
+.teas .container {
     width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -76,4 +76,34 @@ header a {
 .teas h4 {
     margin: 0;
     padding: 0; 
+}
+
+/* Locations section styling */
+
+.locations {
+    width: 1200px;
+    height: 500px;
+    background-image: url('images/img-locations-background.jpg');
+    margin: 75px auto 0;
+}
+
+.locations h2 {
+    padding-top: 50px;
+    margin: 0;
+}
+
+.locations .container {
+    display: flex;
+    justify-content: center;
+}
+
+.locations .container div {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    margin: 15px 20px;
+}
+
+p {
+    line-height: 2em;
 }

@@ -107,3 +107,20 @@ header a {
 p {
     line-height: 2em;
 }
+
+/* footer styling */
+
+footer h2 {
+    position: relative;
+    top: -20px;
+}
+
+.contact {
+    height: 200px;
+    margin: 20px 0;
+}
+
+#copyright {
+    text-align: left;
+    margin: 20px;
+}
